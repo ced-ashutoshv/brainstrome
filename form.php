@@ -13,69 +13,61 @@
             <div class="col">
                 <div class="form-group">
                     <label>Reg No</label>
-                    <input type="text" name="stu_name">
+                    <input type="text" id="regno" name="regno">
                 </div>
             </div>
 
             <div class="col">
                 <div class="form-group">
                     <label>Course</label>
-                    <input type="text" name="stu_name">
+                    <input type="text" id="course" name="course">
                 </div>
             </div>
 
             <div class="col">
                 <div class="form-group">
                     <label>Course Code</label>
-                    <input type="text" name="stu_name">
+                    <input type="text" id="course_code" name="course_code">
                 </div>
             </div>
             
             <div class="col">
                 <div class="form-group">
-                    <label>Reg No</label>
-                    <input type="text" name="stu_name">
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="form-group">
                     <label>CAT1</label>
-                    <input type="number" name="cat1_name">
+                    <input type="number" id="cat1" name="cat1">
                 </div>
             </div>
 
             <div class="col">
                 <div class="form-group">
                     <label>CAT2</label>
-                    <input type="number" name="cat2_name">
+                    <input type="number" id="cat2" name="cat2">
                 </div>
             </div>
 
             <div class="col">
                 <div class="form-group">
                     <label>DA2</label>
-                    <input type="number" name="da2_name">
+                    <input type="number" id="da2" name="da2">
                 </div>
             </div>
 
             <div class="col">
                 <div class="form-group">
                     <label>DA1</label>
-                    <input type="number" name="da1_name">
+                    <input type="number" id="da1" name="da1">
                 </div>
             </div>
 
             <div class="col">
                 <div class="form-group">
                     <label>QUIZ</label>
-                    <input type="number" name="quiz_name">
+                    <input type="number" id="quiz" name="quiz">
                 </div>
             </div>
 
-            Name, , , , Marks for 5 Subjects (CAT1, CAT2, DA1, DA2 and QUIZ)
             <div class="col">
-                <input type="submit" value="Submit">
+                <input type="submit" name="submit" value="Submit">
             </div>
         </div>
         </div>
